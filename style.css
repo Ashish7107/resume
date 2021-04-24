@@ -1,0 +1,94 @@
+body {
+  border-bottom: 5px solid red;
+  background-color: rgb(240, 223, 223);
+  box-sizing: border-box red;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.cont {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(164, 183, 240);
+  box-sizing: border-box red;
+  border-left: red solid 12px;
+  border-right: red solid 12px;
+}
+.container {
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border-left: solid blue 4px;
+  border-top: blue 10px;
+}
+#main-header {
+  list-style-image: url("../resume/iconresize.png");
+  background-color: beige;
+  padding-left: 33%;
+  margin-top: 0%;
+}
+#main-header h1 {
+  color: blue;
+}
+#main-header p1 {
+  padding-left: 65%;
+}
+#main-header p2 {
+  padding-left: 75%;
+}
+.container h2 {
+  color: coral;
+}
+.cont h2 {
+  color: hsl(0, 81%, 41%);
+}
+.clr {
+  clear: both;
+}
+#Achievement {
+  float: left;
+}
+#Interests {
+  float: left;
+}
+.container h2 {
+  text-decoration: underline red;
+}
+.cont {
+  float: right;
+}
+.cont {
+  position: relative;
+}
+#Interests {
+  padding-top: 400%;
+  margin-top: 0%;
+}
+.cont h2 {
+  text-decoration: underline rgb(225, 65, 100);
+}
+ul.cont p {
+  list-style-type: lower-alpha;
+}
+.clr {
+  clear: left;
+}
+table {
+  border: 2px solid red;
+}
+.cl {
+  clear: both;
+}
+@media(max-width: 600px){
+.container{
+      width: 100%;
+      height: ;
+      float: left;
+      
+  }
+  .cont{
+      width: 100%;
+      height: 100%;
+      float: right;
+      
+  }
+  #Achievement{
+    border-right:  solid 5px blue;
+  }
